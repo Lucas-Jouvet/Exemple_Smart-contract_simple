@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Exemple simple</title>
+    <script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script language="javascript" type="text/javascript" src="./web3.min.js"></script>
+    
+    <!--<script language="javascript" type="text/javascript" src="ABI.js"></script>-->
+
+    <script language="javascript" type="text/javascript" src="./Byte_code.js"></script>
+    <script language="javascript" type="text/javascript" src="./ABI_Source.js"></script>
+  </head>
+
+  <body>
+    <center>
+      <h1>Exemple simple</h1>
+      <div id="div_paties">
+		<p>	  
+		  <button class="new_contract">Déployer nouveau contract</button>
+		  <input type="text" name="contract_add" id="contract_add">
+		  <button class="go">Débuter</button>
+		</p>
+		
+		<h2>Etat contrat</h2>
+		
+		<div id="txStatus"></div>
+		<div id="Etat_contrat_uint"></div>
+    <div id="Etat_contrat_tuple"></div>
+		
+		<input type="text" name="add_nb" id="add_nb">
+		<button class="add">add</button>
+		<input type="text" name="less_nb" id="less_nb">
+		<button class="less">Less</button>
+      </div>
+      <script src="init.js"></script>
+    </center>
+  </body>
+</html>
